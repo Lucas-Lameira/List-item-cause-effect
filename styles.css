@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+/* CSS RULES GOOGLE FONTS:
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+*/
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width: ;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+h1#board{
+    display: none;
+}

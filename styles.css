@@ -6,15 +6,79 @@
 body{
     margin:0;
     padding:0;
+    background-color: rgb(241, 241, 241);
 }
 
 header{
-    width: ;
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid black;
+    justify-content: space-around;
+    
+    margin:0px 8% 0px -20%;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    padding: 0;
+    margin: 2% 0 0 0;
+    color: #ED994C;
 }
 
-h1#board{
-    display: none;
+em{
+    color:#1E5638 ;
+}
+
+#container{
+    margin: 8px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+    
+}
+
+ol{
+    list-style-type:none;
+}
+
+.listNames{
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    margin: 8px;
+    padding:10px 2px 0px 2px;
+    
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+
+    background-color: #ED994C;
+    color: #FFF;
+
+}
+
+#info-container{
+    border: 20px solid #ED994C;
+    border-radius: 16px;
+    
+    width: 50%;
+    height: 65vh;
+    
+    margin-right: 5%;
+    padding:10px 0px 0px 24px;
+
+    background-color: #1E5638;
+
+}
+
+.user-info{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.user-info:first-child {
+    font-size: 50px;
+    margin: 8px 0;
+    padding: 8px;
 }

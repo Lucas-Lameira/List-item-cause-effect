@@ -119,7 +119,7 @@ for(let i=0; i<stop; i++){
 }
 
 
-for(i =0; i<7; i++){
+for(i =0; i<6; i++){
     pElement = document.createElement('p');
     pElement.setAttribute('class', 'user-info');
     asideElement.appendChild(pElement);
@@ -127,13 +127,12 @@ for(i =0; i<7; i++){
 pElement = document.querySelectorAll('p.user-info');
 
 function showUserData ({name, street, birthday, city, country, state, telephone}){
-    pElement[0].innerHTML = name
-    pElement[1].innerHTML = street
-    pElement[2].innerHTML = birthday
-    pElement[3].innerHTML = city
-    pElement[4].innerHTML = country
-    pElement[5].innerHTML = state
-    pElement[6].innerHTML = telephone
+    pElement[0].innerHTML = name;
+    pElement[1].innerHTML = 'Data de nascimento: ' + birthday;
+    pElement[2].innerHTML = 'Rua: ' + street;
+    pElement[3].innerHTML = 'Cidade: ' + city + ' - ' + state;
+    pElement[4].innerHTML = 'País: ' + country;
+    pElement[5].innerHTML = 'Telefone: ' + telephone;
 }
 
 
